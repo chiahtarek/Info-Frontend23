@@ -1,0 +1,40 @@
+*{
+    font-size: 18px
+}
+
+
+header,main{ 
+    background-color: RGB(255,194,52) ;
+}
+.imagem-principal{
+    position: relative;
+}
+.imagem-preco{
+    position: absolute;
+    bottom: 0;
+}
+.texto-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    color: RGB(65,31,9);
+}
+
+.texto-principal h1{
+    font-size: 5rem;
+}
+.texto-principal h2{
+    font-size: 3rem;
+}
+.texto-principal h3{
+    border: 2px dashed RGB(65,31,9);
+    font-size: 1rem;
+    display: flex;
+    width: max-content;
+    padding: 0.8rem;
+}
+.delivery span{
+    color:RGB(65,31,9) ;
+    font-weight: bold;
+}
