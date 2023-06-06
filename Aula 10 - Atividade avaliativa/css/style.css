@@ -45,6 +45,9 @@ header,main{
     padding: 1rem;
 
 }
+.hamburguer-direita{
+    gap: 10px;
+}
 .hamburguer-direita-img1{
  background-image: url("../img/sessao1/fundo2.png");
  width: 548px;
