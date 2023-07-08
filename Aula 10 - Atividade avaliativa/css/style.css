@@ -45,9 +45,7 @@ header,main{
     padding: 1rem;
 
 }
-.hamburguer-direita{
-    gap: 10px;
-}
+
 .hamburguer-direita-img1{
  background-image: url("../img/sessao1/fundo2.png");
  width: 548px;
@@ -121,6 +119,43 @@ header,main{
 .btn-primary:hover{
     background-color: RGB(255,194,52);
 }
+
+.discover-imagem{
+    width:100%;
+}
+
+#discover{
+    color: RGB(65,31,9);
+}
+
+#discover h4{
+    font-size: 1.3rem;
+}
+#discover h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+#discover p{
+    font-size: 0.8rem;
+}
+
+footer{
+    background-image: url("../img/rodape/fundo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 483px;
+    color: white;
+}
+.footer .footer-parte1{
+  
+    height: 300px;
+}
+.footer-redes{
+    gap: 10px;
+}
+
+
 @media(max-widht: 980px){
     *{
         font-size: 20px;
